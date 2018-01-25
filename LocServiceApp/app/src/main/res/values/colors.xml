@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text">#ff000000</color>
+    <color name="text2">#ff8b8386</color>
+    <color name="gtext">#ff969696</color>
+    <color name="list_background">#ffd9d9d9</color>
+    <color name="window_background">#ff191919</color>
+    <color name="whiteColor">#ffffffff</color>
+    <color name="translucent_background">#00000000</color>
+    <color name="loveColor">#0f890000</color>
+    <color name="backColor">#ff000000</color>
+    <color name="yeColor">#ffee9a00</color>
+    <color name="greenColor">#ff0a8f0a</color>
+    <color name="orangeColor">#ffe97f27</color>
+    <color name="sear_red">#ffa52a2a</color>
+    <color name="sear_green">#ff4b7d3e</color>
+    <color name="sear_blue">#ff0000aa</color>
+    <color name="sear_redlight">#ffd02090</color>
+    <color name="sear_pur">#ffa020f0</color>
+    <color name="window_bg">#ffffffff</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="sickline">#d2d2d2</color>
+    <color name="dialog_title_color">#333333</color>
+    <color name="menu_text_color">#ff000000</color>
+    <color name="color_black_d9d9d9">#d9d9d9</color>
+    <color name="gray">#ebeeed</color>
+    <color name="text_color_bai">#ffffff</color>
+    <color name="text_color_lan">#3B52B2</color>
+    <!-- 深灰 -->
+    <color name="darkgray">#323232</color>
+    <!-- 主色 -->
+    <color name="tab_line_color" >#3fb5af</color>
+    <!-- 背景 -->
+    <color name="bgcolor_gray">#ececec</color>
+    <color name="color_grey_999999">#999999</color>
+    <color name="sick_line">#d2d2d2</color>
+    <color name="bgcase">#ffffff</color>
+    <color name="transmit">#3B52B2</color>
+</resources>

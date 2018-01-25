@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="caseType">
+        <item>请选择案件类型</item>
+        <item>盗窃案件</item>
+        <item>抢劫案件</item>
+        <item>诈骗案件</item>
+        <item>故意伤害案件</item>
+        <item>故意伤人案件</item>
+        <item>涉毒案件</item>
+        <item>其他案件</item>
+    </string-array>
+
+    <string-array name="rs">
+        <item>请选择</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

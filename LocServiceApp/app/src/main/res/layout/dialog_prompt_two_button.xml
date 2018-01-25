@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/dialog_bg" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/dialog_title_color"
+            android:text="提示"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" android:paddingLeft="16dp" android:paddingRight="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal" android:layout_marginBottom="16dp"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:id="@+id/tv_message"
+            style="@style/dialogMessageStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/sick_line"/>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp">
+        <Button
+            android:id="@+id/bn_dialog_prompt_ob"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:background="@drawable/dialog_button_bg_b"
+            android:text="确定" android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center" android:paddingLeft="16dp" android:paddingRight="16dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#4AB4F8"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="44dp"
+            android:background="@color/sick_line"/>
+        <Button
+            android:id="@+id/bn_dialog_cancel_ob"
+            android:layout_width="0dp"
+            android:layout_height="44dp" android:layout_weight="1"
+            android:background="@drawable/dialog_button_bg_b"
+            android:text="取消"
+            android:textSize="16sp"
+            android:gravity="center" android:paddingLeft="16dp" android:paddingRight="16dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#4AB4F8"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
